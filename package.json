@@ -1,0 +1,31 @@
+{
+  "name": "tugas2",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "native-base": "^2.8.1",
+    "react": "16.6.1",
+    "react-native": "0.57.7",
+    "react-native-app-intro-slider": "^1.0.1",
+    "react-native-gesture-handler": "^1.0.10",
+    "react-native-router-flux": "^4.0.6",
+    "react-native-sound": "^0.10.9",
+    "react-native-sound-player": "^0.5.3",
+    "react-native-swiper": "^1.5.14",
+    "react-native-vector-icons": "^6.1.0",
+    "react-navigation": "^3.0.8"
+  },
+  "devDependencies": {
+    "babel-jest": "23.6.0",
+    "jest": "23.6.0",
+    "metro-react-native-babel-preset": "0.48.5",
+    "react-test-renderer": "16.6.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
